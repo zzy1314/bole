@@ -1,0 +1,32 @@
+[ 2015-10-13T21:33:20+08:00 ] 127.0.0.1 /tp32/Admin/Books/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0767s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2015-10-13T21:33:25+08:00 ] 127.0.0.1 /tp32/index.php/Admin/Books/addok
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0693s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\zxl\tp32\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
